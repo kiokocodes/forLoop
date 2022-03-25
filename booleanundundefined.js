@@ -11,7 +11,7 @@ const surname = "kioko";
 const isCool = true;
 
 //Integers/Numbers
-const age = 33;
+const age = 30;
 
 //Undefined
 const residence = undefined;
@@ -27,3 +27,11 @@ console.log(age);
 console.log(residence);
 console.log(maritalStatus);
 console.log(x);
+
+//Concatenation 
+
+console.log('Mein name ist ' + name + ' und ich bin ' + age + ' jahre alt');
+
+//ES6 Template Strings
+
+console.log(`Mein name ist ${name} und ich bin ${age} jahre alt`);
