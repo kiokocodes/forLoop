@@ -14,3 +14,4 @@ for (let hungrisch = 0; hungrisch < 10; hungrisch++) {
     fruhstuckenMachen.push( [ 10 ** hungrisch, 10 * hungrisch ** 7,])
 }
 console.table(fruhstuckenMachen); */
+
