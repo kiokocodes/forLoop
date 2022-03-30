@@ -1,16 +1,16 @@
-//Lesson Null - creating and updating arrays.
-// Arrays are variables that hold multiple values
+//MDN Network code samples
+//Using arrays to tabulate a set of values
+/*const values = [];
+for (let x = 0; x < 10; x++) {
+  values.push([
+    2 ** x,
+    2 * x ** 2,
+  ]);
+}
+console.table(values);
 
-const Obst = ['apfel', 'erdbeeren','orange'];
-
-//Schauen sie sich einen artikel
-console.log(Obst[0]);
-
-//ein Element am Ende eines Arrays hinzufügen
-Obst.push("bananen");
-console.log(Obst[3]);
-
-console.log(Obst);  // wie viele Früchte habe ich?
-console.log(Obst.pop()); //wie viele Früchte habe ich und hich man habe ich entfernen?
-console.log(Obst); //wie viele Früchte habe ich?
-
+const fruhstuckenMachen = [];
+for (let hungrisch = 0; hungrisch < 10; hungrisch++) {
+    fruhstuckenMachen.push( [ 10 ** hungrisch, 10 * hungrisch ** 7,])
+}
+console.table(fruhstuckenMachen); */
