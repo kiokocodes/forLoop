@@ -1,3 +1,4 @@
+//Lesson Null - creating and updating arrays.
 // Arrays are variables that hold multiple values
 
 const Obst = ['apfel', 'erdbeeren','orange'];
