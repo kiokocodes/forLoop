@@ -40,3 +40,25 @@ console.table(kiokoCodes); //Ich mag diese ;)
     const newLength = kiokoCodes.push('TypeScript');
     console.log(kiokoCodes); //check whether new item has beenadded to array
     console.log(newLength); //Check length of array after addition of item
+
+
+    //Final Example of a miniaturised DB Entry
+
+    const personen = {
+      firstName: "Joseph",
+      lastName: "Kioko",
+      ocupation: "coder",
+      nickName: false,
+      age: 33,
+      dasHobbys: ["musikHoren",
+                  "schwimmen", 
+                  "programieren",
+                  "schlafen und Essen"],
+      address: {
+        postleitzahl: "69 Stroke Street",
+        telefonNummer: 708199825,
+        stat:"StrokeVille",
+        Arbeit: "Programieren"
+      }
+    }
+    console.table(personen);
